@@ -10,6 +10,14 @@ Install as a development dependency via Composer:
 composer require --dev zhikariz/yii2-fixer
 ```
 
+**Note**: This package requires PHP 8.1+. If your project uses an older PHP version, you can still install it by setting the `PHP_CS_FIXER_IGNORE_ENV` environment variable:
+
+```bash
+PHP_CS_FIXER_IGNORE_ENV=1 composer require --dev zhikariz/yii2-fixer
+```
+
+However, the tool will only work on PHP 8.1+ systems.
+
 Or clone the repository and run:
 
 ```bash
