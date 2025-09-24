@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Helmi Adi Prasetyo <helmi.prasetyo12@gmail.com>
+ * @copyright Copyright (c) Helmi Adi Prasetyo
+ */
 $config = new PhpCsFixer\Config();
 
 $config->setRules([
