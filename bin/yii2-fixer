@@ -1,5 +1,9 @@
 #!/usr/bin/env php
 <?php
+/**
+ * @author Helmi Adi Prasetyo <helmi.prasetyo12@gmail.com>
+ * @copyright Copyright (c) Helmi Adi Prasetyo
+ */
 
 // Include autoload - check multiple possible locations
 $autoloadPaths = [
