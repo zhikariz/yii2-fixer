@@ -18,10 +18,10 @@ class VersionCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $output->writeln('Yii2 Fixer By zhikariz 1.0.1');
+        $output->writeln('Yii2 Fixer By zhikariz 1.0.2');
         $output->writeln('PHP version: ' . PHP_VERSION);
         $output->writeln('PHP-CS-Fixer version: ' . \PhpCsFixer\Console\Application::VERSION);
 
-        return Command::SUCCESS;
+        return 0;
     }
 }

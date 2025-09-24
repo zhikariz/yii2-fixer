@@ -10,7 +10,7 @@ class Application extends BaseApplication
 {
     public function __construct()
     {
-        parent::__construct('Yii2 Fixer By zhikariz', '1.0.1');
+        parent::__construct('Yii2 Fixer By zhikariz', '1.0.2');
 
         $this->add(new FixCommand());
         $this->add(new VersionCommand());
