@@ -1,0 +1,50 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHP-CS-Fixer
+.php-cs-fixer.cache
+
+# PHPUnit
+phpunit.xml
+.phpunit.result.cache
+/tests/_output/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+*.html
+*.xml
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+build/
+dist/
