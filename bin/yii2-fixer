@@ -1,7 +1,18 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+// Include autoload - check multiple possible locations
+$autoloadPaths = [
+    __DIR__ . '/../vendor/autoload.php',      // Development
+    __DIR__ . '/../../../autoload.php',       // Installed as dependency
+];
+
+foreach ($autoloadPaths as $path) {
+    if (file_exists($path)) {
+        require_once $path;
+        break;
+    }
+}
 
 use zhikariz\yii2\fixer\Console\Application;
 
