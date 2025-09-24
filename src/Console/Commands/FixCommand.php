@@ -24,7 +24,7 @@ class FixCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $path = $input->getArgument('path');
-        $configFile = $input->getOption('config') ?: __DIR__ . '/../../../fixer.json';
+        $configFile = $input->getOption('config') ?: __DIR__ . '/../../../fixer.php';
 
         $output->writeln('Fixing code style...');
 
