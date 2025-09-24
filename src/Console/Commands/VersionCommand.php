@@ -22,6 +22,6 @@ class VersionCommand extends Command
         $output->writeln('PHP version: ' . PHP_VERSION);
         $output->writeln('PHP-CS-Fixer version: ' . \PhpCsFixer\Console\Application::VERSION);
 
-        return 0;
+        return Command::SUCCESS;
     }
 }
